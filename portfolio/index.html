@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>PARVEJ</title>
+    <style>
+      .container{
+        margin-top: 30px;
+      }
+      #greet{
+        margin-top: 25px;
+        color: ghostwhite;
+        background: black;
+        padding: 20px;
+      }
+      #greet:hover{
+        background: gray;
+        color: black;
+        transition: 1s;
+      }
+      #card{
+        height: 240px;
+      }
+      #footer{
+        background: black;
+        color: whitesmoke;
+      }
+      #footerp{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        
+      }
+    </style>
+  </head>
+  <body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">PARVEJ</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse right" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#about">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">EDUCATION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#activities">ACTIVITIES</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="carousel1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="carousel2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="carousel3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<h1 align="center" id="greet">WELCOME TO MY WEBSITE</h1>
+<h1 align="center" id="about" class="shadow-lg p-3 mb-5 bg-body rounded">About Myself</h1>
+<div class="container shadow-lg p-3 mb-5 bg-body rounded">
+  <div class="card-group p-3 mb-2 bg-secondary text-black">
+  <div class="card">
+    <img src="card1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Active</h5><hr>
+      <p class="card-text">I am very much active to my every kind of acitivities. I try a lot to develop my skills everyday. </p>
+     
+    </div>
+  </div>
+  <div class="card">
+    <img src="card2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Researcher</h5><hr>
+      <p class="card-text">I am not a professional researcher but i always try to explore new things. </p>
+     
+    </div>
+  </div>
+  <div class="card">
+    <img src="card3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Leisure Time</h5><hr>
+      <p class="card-text">In a leisure time i don't waste my time listening songs but i try to read books to gather knowledge.</p>
+      
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container shadow-lg p-3 mb-5 bg-body rounded" id="education">
+ <div class="card">
+  <div class="card-header p-3 mb-2 bg-secondary text-white">
+   Education
+  </div>
+  <div class="card-body">
+    <h5 class="card-title ">Sonapota High School,Khulna</h5>
+    <p class="card-text">In the year of 2013 i passed SSC examinaiton with 3.63 grade point from commerce group.</p>
+    <h5 class="card-title">Ahsanullah College,Khulna</h5>
+    <p class="card-text">In the year of 2015 i passed HSC examinaiton with 2.83 grade point from commerce group.</p>
+    <h5 class="card-title">Commerce college,khulna</h5>
+    <p class="card-text">In the year of 2020 i passed BBA examinaiton with 2nd division from Accounting Department.</p>
+    <a href="https://www.facebook.com/parvej.ahmed.7505468" class="btn btn-outline-success">FB Link</a>
+  </div>
+</div>
+</div>
+<h1 align="center" class="shadow-lg p-3 mb-5 bg-body rounded" id="activities">Activities</h1>
+<div class="container shadow-lg p-3 mb-5 bg-body rounded">
+  <div class="card mb-3 shadow-lg p-3 mb-5 bg-body rounded">
+  <img src="new1.jpg" class="card-img-top" alt="..." id="card">
+  <div class="card-body">
+    <h5 class="card-title">Rubix Cube</h5><hr>
+    <p class="card-text">I learnt how to solve rubix cube from youtube and in my leisure time i solve it to keep active brain. It's very essential for active people's. </p>
+    
+  </div>
+</div>
+<div class="card shadow-lg p-3 mb-5 bg-body rounded">
+  <div class="card-body">
+    <h5 class="card-title">Library</h5><hr>
+    <p class="card-text">I visit Library sometime to read various kind of books for gathering new knowledge.It's essential for our young generation to be involved with library education.</p>
+  
+  </div>
+  <img src="new2.jpg" class="card-img-bottom" alt="..." id="card">
+</div>
+</div>
+
+
+  <div class="card" id="footer">
+  <div class="card-body" id="footerp">
+    Thank You For Visit My Website.
+  </div>
+</div>
+
+
+
+    <!-- <h1>Hello, world!</h1> -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
